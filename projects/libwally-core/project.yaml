@@ -1,0 +1,8 @@
+homepage: "https://github.com/ElementsProject/libwally-core"
+language: c
+primary_contact: "jon_p_griffiths@yahoo.com"
+main_repo: "https://github.com/ElementsProject/libwally-core.git"
+file_github_issue: true
+sanitizers: [address, memory, undefined]
+fuzzing_engines: [libfuzzer]
+builds_per_day: 1
